@@ -1,8 +1,4 @@
-#from ImportEngine import DocxImporter, CSVImporter
 from ImportEngine import Importer
-
-# print(DocxImporter.parse('./data/cats.docx'))
-# print(CSVImporter.parse('./data/cats.csv'))
 
 print("1. .pdf: ",Importer.parse('./data/cats.pdf'))
 print("2. .csv: ",Importer.parse('./data/cats.csv'))
