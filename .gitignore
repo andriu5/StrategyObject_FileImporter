@@ -1,3 +1,9 @@
 # Environments
 venv/
+
 .DS_Store
+
+# Byte-compiled / optimized / DLL files
+ImportEngine/__pycache__/*.pyc
+__pycache__/*.pyc
+__pycache__/
